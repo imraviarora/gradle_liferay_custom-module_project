@@ -1,0 +1,7 @@
+Bundle-Name: custom-form-module
+Bundle-SymbolicName: com.tcpl.custom.form
+Bundle-Version: 1.0.0
+Export-Package: com.tcpl.custom.form.constants
+
+
+

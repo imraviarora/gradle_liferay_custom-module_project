@@ -1,0 +1,22 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel"
+	compileOnly group: "com.liferay.portal", name: "com.liferay.util.taglib"
+	compileOnly group: "javax.portlet", name: "portlet-api"
+	compileOnly group: "javax.servlet", name: "javax.servlet-api"
+	compileOnly group: "jstl", name: "jstl"
+	compileOnly group: "org.osgi", name: "org.osgi.service.component.annotations"
+
+
+
+compile group: "com.liferay", name:"com.liferay.dynamic.data.mapping.api"
+
+compile group: 'com.liferay.portal', name: 'release.portal.api', version: '7.1.1'
+
+
+
+
+
+// https://mvnrepository.com/artifact/com.liferay/com.liferay.dynamic.data.mapping.api
+//providedCompile group: 'com.liferay', name: 'com.liferay.dynamic.data.mapping.api', version: '5.6.0'
+
+}
