@@ -97,7 +97,7 @@ public class CustomFormPortlet extends MVCPortlet {
 	public void processAction(ActionRequest actionRequest, ActionResponse actionResponse)
 			throws IOException, PortletException {
 
-		DDMFormInstance ddmFormInstance = DDMFormInstanceLocalServiceUtil.fetchDDMFormInstance(35513L);
+		DDMFormInstance ddmFormInstance = DDMFormInstanceLocalServiceUtil.fetchDDMFormInstance(35208L);
 		DDMStructureVersion ddmStructureVersion = null;
 		try {
 			ddmStructureVersion = ddmFormInstance.getStructure().getLatestStructureVersion();
